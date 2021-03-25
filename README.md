@@ -1,2 +1,1 @@
-Este repositorio es de prueba
-contiene los comandos básicos de git con una descripción corta
+Este repositorio es de prueba. Contiene los comandos básicos de git con una descripción corta
