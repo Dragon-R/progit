@@ -194,7 +194,7 @@
             <td>Etiquetar commits mucho tiempo después, especificar el checksum (o parte de él)</td>
         </tr>
         <tr>
-            <td>git push origin [etiqueta]</td>
+            <td>$ git push origin [etiqueta]</td>
             <td>Transferir una etiqueta a los servidores remotos</td>
         </tr>
         <tr>
@@ -204,6 +204,18 @@
         <tr>
             <td>$ git config --global alias.co checkout</td>
             <td>Esto significa que, en lugar de teclear git commit, solo se necesita teclear git ci.</td>
+        </tr>
+        <tr>
+            <td>$ git config --global alias.unstage 'reset HEAD --'</td>
+            <td>Quitar del área de preparación un archivo: $ git unstage fileA</td>
+        </tr>
+        <tr>
+            <td>$ git config --global alias.last 'log -1 HEAD'</td>
+            <td>Ver fácilmente cuál fue la última confirmación: $ git last</td>
+        </tr>
+        <tr>
+            <td>$ git config --global alias.ac 'commit -a -m'</td>
+            <td>Add y commit juntos: $ git ac 'mensaje'</td>
         </tr>
     </table>
 </body>
