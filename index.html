@@ -269,6 +269,66 @@
             <td>Eliminar una rama1 sin fucionar el avance en otra rama0</td>
         </tr>
         <tr>
+            <td>$ git clone -o [nombre de rama principal]</td>
+            <td>Cambiar el nombre de la rama principal al clonar un repositorio</td>
+        </tr>
+        <tr>
+            <td>$ git fetch origin</td>
+            <td>Recupera cualquier dato presente en el remoto, y actualiza la base de datos local</td>
+        </tr>
+        <tr>
+            <td>$ git push [remoto] [rama]</td>
+            <td>Enviar una rama al servidor remoto</td>
+        </tr>
+        <tr>
+            <td>$ git push origin [ramaA]:[ramaB]</td>
+            <td>Enviar una rama al servidor remoto con un nombre de ramaB distinto</td>
+        </tr>
+        <tr>
+            <td>$ git merge [nombreremoto]/[rama remota]</td>
+            <td>Integrar (merge) una rama remota en la rama de trabajo actual</td>
+        </tr>
+        <tr>
+            <td>$ git checkout -b [rama local] [nombreremoto]/[rama remota]</td>
+            <td>Crear rama [rama remota] para trabajar de manera local</td>
+        </tr>
+        <tr>
+            <td>$ git branch -u [nombreremoto]/[rama remota]</td>
+            <td>Si existe una rama local, asignar a una rama remota reciente, o cambiar la rama a la que se hace seguimiento</td>
+        </tr>
+        <tr>
+            <td>$ git branch -vv</td>
+            <td>Listar las ramas locales con más información</td>
+        </tr>
+        <tr>
+            <td>$ git fetch --all</td>
+            <td>Tener los cambios por delante y por detrás actualizados</td>
+        </tr>
+        <tr>
+            <td>$ git push origin --delete [rama remota]</td>
+            <td>Eliminar una rama remota</td>
+        </tr>
+        <tr>
+            <td>$ git rebase [rama]</td>
+            <td>Capturar todos los cambios confirmados en una rama y reaplicarlos sobre otra.</td>
+        </tr>
+        <tr>
+            <td>$ git rebase --onto master [ramaA] [ramaA']</td>
+            <td>Activa la rama [ramaA'], averigua los cambios desde el ancestro común entre las ramas [ramaA'] y [ramaA], y aplicalos en la rama master</td>
+        </tr>
+        <tr>
+            <td>$ git pull --rebase</td>
+            <td>Proceso simplificado de: $ git pull y $ git rebase</td>
+        </tr>
+        <tr>
+            <td>$ git config --global pull.rebase true</td>
+            <td>Activar rebase por defecto</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
         </tr>
