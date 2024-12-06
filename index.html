@@ -30,6 +30,10 @@
             <td>Configuración global Email de usuario Git</td>
         </tr>
         <tr>
+            <td>$ git config --global core abbrev (numero)</td>
+            <td>Configuración global para mostrar solo los últimos (numero) caracteres del hash</td>
+        </tr>
+        <tr>
             <td>$ git help comando <strong><i>o</i></strong> git comando --help</td>
             <td>Obtener ayuda relacionada a un comando</td>
         </tr>
@@ -76,6 +80,18 @@
         <tr>
             <td>$ git diff --cached</td>
             <td>Ver qué está preparado hasta ahora</td>
+        </tr>
+        <tr>
+            <td>$ git diff (hash) (hash)</td>
+            <td>Ver qué está cambiando entre dos commits</td>
+        </tr>
+        <tr>
+            <td>$ git diff --name-only (hash) (hash)</td>
+            <td>Ver qué archivos están cambiando entre dos commits</td>
+        </tr>
+        <tr>
+            <td>$ git diff --word-diff (hash) (hash)</td>
+            <td>Ver qué líneas están cambiando entre dos commits</td>
         </tr>
         <tr>
             <td>$ git difftool</td>
@@ -134,7 +150,7 @@
             <td>Sacar archivos del área de preparación</td>
         </tr>
         <tr>
-            <td>$ git checkout -- filename</td>
+            <td>$ git checkout --filename</td>
             <td>Descartar cambios hechos en un archivo</td>
         </tr>
         <tr>
